@@ -1,0 +1,549 @@
+[
+  {
+    "id": "easing:linear",
+    "kind": "easing",
+    "name": "linear",
+    "cubic_bezier": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "family": "linear",
+    "direction": "linear",
+    "use_cases": [
+      "progress fills",
+      "scrubbers"
+    ],
+    "pairs_well_with_durations_ms": [
+      200,
+      400,
+      800
+    ]
+  },
+  {
+    "id": "easing:ease-in-sine",
+    "kind": "easing",
+    "name": "ease-in-sine",
+    "cubic_bezier": [
+      0.12,
+      0,
+      0.39,
+      0
+    ],
+    "family": "sine",
+    "direction": "in",
+    "use_cases": [
+      "subtle drift",
+      "ambient transitions"
+    ],
+    "pairs_well_with_durations_ms": [
+      120,
+      160,
+      200
+    ]
+  },
+  {
+    "id": "easing:ease-out-sine",
+    "kind": "easing",
+    "name": "ease-out-sine",
+    "cubic_bezier": [
+      0.61,
+      1,
+      0.88,
+      1
+    ],
+    "family": "sine",
+    "direction": "out",
+    "use_cases": [
+      "subtle drift",
+      "ambient transitions"
+    ],
+    "pairs_well_with_durations_ms": [
+      120,
+      160,
+      200
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-sine",
+    "kind": "easing",
+    "name": "ease-in-out-sine",
+    "cubic_bezier": [
+      0.37,
+      0,
+      0.63,
+      1
+    ],
+    "family": "sine",
+    "direction": "in-out",
+    "use_cases": [
+      "subtle drift",
+      "ambient transitions"
+    ],
+    "pairs_well_with_durations_ms": [
+      120,
+      160,
+      200
+    ]
+  },
+  {
+    "id": "easing:ease-in-quad",
+    "kind": "easing",
+    "name": "ease-in-quad",
+    "cubic_bezier": [
+      0.11,
+      0,
+      0.5,
+      0
+    ],
+    "family": "quad",
+    "direction": "in",
+    "use_cases": [
+      "default UI motion",
+      "buttons",
+      "hovers"
+    ],
+    "pairs_well_with_durations_ms": [
+      120,
+      160,
+      200
+    ]
+  },
+  {
+    "id": "easing:ease-out-quad",
+    "kind": "easing",
+    "name": "ease-out-quad",
+    "cubic_bezier": [
+      0.5,
+      1,
+      0.89,
+      1
+    ],
+    "family": "quad",
+    "direction": "out",
+    "use_cases": [
+      "default UI motion",
+      "buttons",
+      "hovers"
+    ],
+    "pairs_well_with_durations_ms": [
+      120,
+      160,
+      200
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-quad",
+    "kind": "easing",
+    "name": "ease-in-out-quad",
+    "cubic_bezier": [
+      0.45,
+      0,
+      0.55,
+      1
+    ],
+    "family": "quad",
+    "direction": "in-out",
+    "use_cases": [
+      "default UI motion",
+      "buttons",
+      "hovers"
+    ],
+    "pairs_well_with_durations_ms": [
+      120,
+      160,
+      200
+    ]
+  },
+  {
+    "id": "easing:ease-in-cubic",
+    "kind": "easing",
+    "name": "ease-in-cubic",
+    "cubic_bezier": [
+      0.32,
+      0,
+      0.67,
+      0
+    ],
+    "family": "cubic",
+    "direction": "in",
+    "use_cases": [
+      "card lift",
+      "menu open"
+    ],
+    "pairs_well_with_durations_ms": [
+      180,
+      240,
+      320
+    ]
+  },
+  {
+    "id": "easing:ease-out-cubic",
+    "kind": "easing",
+    "name": "ease-out-cubic",
+    "cubic_bezier": [
+      0.33,
+      1,
+      0.68,
+      1
+    ],
+    "family": "cubic",
+    "direction": "out",
+    "use_cases": [
+      "card lift",
+      "menu open"
+    ],
+    "pairs_well_with_durations_ms": [
+      180,
+      240,
+      320
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-cubic",
+    "kind": "easing",
+    "name": "ease-in-out-cubic",
+    "cubic_bezier": [
+      0.65,
+      0,
+      0.35,
+      1
+    ],
+    "family": "cubic",
+    "direction": "in-out",
+    "use_cases": [
+      "card lift",
+      "menu open"
+    ],
+    "pairs_well_with_durations_ms": [
+      180,
+      240,
+      320
+    ]
+  },
+  {
+    "id": "easing:ease-in-quart",
+    "kind": "easing",
+    "name": "ease-in-quart",
+    "cubic_bezier": [
+      0.5,
+      0,
+      0.75,
+      0
+    ],
+    "family": "quart",
+    "direction": "in",
+    "use_cases": [
+      "dialog open",
+      "drawer slide"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "easing:ease-out-quart",
+    "kind": "easing",
+    "name": "ease-out-quart",
+    "cubic_bezier": [
+      0.25,
+      1,
+      0.5,
+      1
+    ],
+    "family": "quart",
+    "direction": "out",
+    "use_cases": [
+      "dialog open",
+      "drawer slide"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-quart",
+    "kind": "easing",
+    "name": "ease-in-out-quart",
+    "cubic_bezier": [
+      0.76,
+      0,
+      0.24,
+      1
+    ],
+    "family": "quart",
+    "direction": "in-out",
+    "use_cases": [
+      "dialog open",
+      "drawer slide"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "easing:ease-in-quint",
+    "kind": "easing",
+    "name": "ease-in-quint",
+    "cubic_bezier": [
+      0.64,
+      0,
+      0.78,
+      0
+    ],
+    "family": "quint",
+    "direction": "in",
+    "use_cases": [
+      "full-screen takeover"
+    ],
+    "pairs_well_with_durations_ms": [
+      320,
+      400,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-out-quint",
+    "kind": "easing",
+    "name": "ease-out-quint",
+    "cubic_bezier": [
+      0.22,
+      1,
+      0.36,
+      1
+    ],
+    "family": "quint",
+    "direction": "out",
+    "use_cases": [
+      "full-screen takeover"
+    ],
+    "pairs_well_with_durations_ms": [
+      320,
+      400,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-quint",
+    "kind": "easing",
+    "name": "ease-in-out-quint",
+    "cubic_bezier": [
+      0.83,
+      0,
+      0.17,
+      1
+    ],
+    "family": "quint",
+    "direction": "in-out",
+    "use_cases": [
+      "full-screen takeover"
+    ],
+    "pairs_well_with_durations_ms": [
+      320,
+      400,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-in-expo",
+    "kind": "easing",
+    "name": "ease-in-expo",
+    "cubic_bezier": [
+      0.7,
+      0,
+      0.84,
+      0
+    ],
+    "family": "expo",
+    "direction": "in",
+    "use_cases": [
+      "dramatic reveals",
+      "splash"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-out-expo",
+    "kind": "easing",
+    "name": "ease-out-expo",
+    "cubic_bezier": [
+      0.16,
+      1,
+      0.3,
+      1
+    ],
+    "family": "expo",
+    "direction": "out",
+    "use_cases": [
+      "dramatic reveals",
+      "splash"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-expo",
+    "kind": "easing",
+    "name": "ease-in-out-expo",
+    "cubic_bezier": [
+      0.87,
+      0,
+      0.13,
+      1
+    ],
+    "family": "expo",
+    "direction": "in-out",
+    "use_cases": [
+      "dramatic reveals",
+      "splash"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-in-circ",
+    "kind": "easing",
+    "name": "ease-in-circ",
+    "cubic_bezier": [
+      0.55,
+      0,
+      1,
+      0.45
+    ],
+    "family": "circ",
+    "direction": "in",
+    "use_cases": [
+      "arc / orbit motion"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "easing:ease-out-circ",
+    "kind": "easing",
+    "name": "ease-out-circ",
+    "cubic_bezier": [
+      0,
+      0.55,
+      0.45,
+      1
+    ],
+    "family": "circ",
+    "direction": "out",
+    "use_cases": [
+      "arc / orbit motion"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-circ",
+    "kind": "easing",
+    "name": "ease-in-out-circ",
+    "cubic_bezier": [
+      0.85,
+      0,
+      0.15,
+      1
+    ],
+    "family": "circ",
+    "direction": "in-out",
+    "use_cases": [
+      "arc / orbit motion"
+    ],
+    "pairs_well_with_durations_ms": [
+      240,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "easing:ease-in-back",
+    "kind": "easing",
+    "name": "ease-in-back",
+    "cubic_bezier": [
+      0.36,
+      0,
+      0.66,
+      -0.56
+    ],
+    "family": "back",
+    "direction": "in",
+    "use_cases": [
+      "playful overshoot",
+      "celebratory"
+    ],
+    "pairs_well_with_durations_ms": [
+      320,
+      400,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-out-back",
+    "kind": "easing",
+    "name": "ease-out-back",
+    "cubic_bezier": [
+      0.34,
+      1.56,
+      0.64,
+      1
+    ],
+    "family": "back",
+    "direction": "out",
+    "use_cases": [
+      "playful overshoot",
+      "celebratory"
+    ],
+    "pairs_well_with_durations_ms": [
+      320,
+      400,
+      480
+    ]
+  },
+  {
+    "id": "easing:ease-in-out-back",
+    "kind": "easing",
+    "name": "ease-in-out-back",
+    "cubic_bezier": [
+      0.68,
+      -0.6,
+      0.32,
+      1.6
+    ],
+    "family": "back",
+    "direction": "in-out",
+    "use_cases": [
+      "playful overshoot",
+      "celebratory"
+    ],
+    "pairs_well_with_durations_ms": [
+      320,
+      400,
+      480
+    ]
+  }
+]

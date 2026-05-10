@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_version": "2026-05-10",
+  "generated_at": "2026-05-10T04:20:22.133Z",
+  "source_origin": "https://coss.com",
+  "counts": {
+    "component": 55,
+    "recipe": 484,
+    "easing": 25,
+    "doc": 58,
+    "token": 0,
+    "hook": 2,
+    "lib": 5
+  },
+  "hash": "768b3d0029d5fc14"
+}

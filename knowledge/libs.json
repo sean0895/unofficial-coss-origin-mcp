@@ -1,0 +1,49 @@
+[
+  {
+    "id": "lib:use-render",
+    "kind": "lib",
+    "name": "use-render",
+    "exports": [],
+    "source_paths": [
+      "registry/default/base-ui/use-render.ts"
+    ]
+  },
+  {
+    "id": "lib:csp-provider",
+    "kind": "lib",
+    "name": "csp-provider",
+    "exports": [],
+    "source_paths": [
+      "registry/default/base-ui/csp-provider.ts"
+    ]
+  },
+  {
+    "id": "lib:utils",
+    "kind": "lib",
+    "name": "utils",
+    "exports": [
+      "cn"
+    ],
+    "source_paths": [
+      "registry/default/lib/utils.ts"
+    ]
+  },
+  {
+    "id": "lib:merge-props",
+    "kind": "lib",
+    "name": "merge-props",
+    "exports": [],
+    "source_paths": [
+      "registry/default/base-ui/merge-props.ts"
+    ]
+  },
+  {
+    "id": "lib:direction-provider",
+    "kind": "lib",
+    "name": "direction-provider",
+    "exports": [],
+    "source_paths": [
+      "registry/default/base-ui/direction-provider.ts"
+    ]
+  }
+]

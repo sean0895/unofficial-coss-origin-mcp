@@ -1,0 +1,59 @@
+{
+  "name": "unofficial-coss-origin-mcp",
+  "version": "0.1.0",
+  "description": "Unofficial Model Context Protocol server for the COSS Origin component library — recipe lookup, variant search, easing reference, doc search, and JSX lint as a frontend designer's second brain.",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "unofficial-coss-origin-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "knowledge",
+    "claude-rules.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bun build ./src/server.ts --outdir dist --target node --format esm && bun ./scripts/prepend-shebang.ts && chmod +x dist/server.js",
+    "dev": "bun ./src/server.ts",
+    "crawl": "bun ./scripts/crawl.ts",
+    "normalize": "bun ./scripts/normalize.ts",
+    "index": "bun ./scripts/index.ts",
+    "snapshot": "bun scripts/crawl.ts && bun scripts/normalize.ts && bun scripts/index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "bun run typecheck && bun test && bun run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@oxc-parser/wasm": "^0.39.0",
+    "minisearch": "^7.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "coss",
+    "coss-ui",
+    "coss-origin",
+    "tailwind",
+    "react",
+    "shadcn",
+    "design-system"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "",
+  "homepage": "https://github.com/sean0895/unofficial-coss-origin-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean0895/unofficial-coss-origin-mcp.git"
+  }
+}

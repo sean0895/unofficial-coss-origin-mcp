@@ -1,0 +1,20 @@
+[
+  {
+    "id": "hook:use-copy-to-clipboard",
+    "kind": "hook",
+    "name": "use-copy-to-clipboard",
+    "signature": "export function useCopyToClipboard({\n  timeout = 2000,\n  onCopy,\n}: {\n  timeout?: number;\n  onCopy?: () => void;\n} = ",
+    "source_paths": [
+      "registry/default/hooks/use-copy-to-clipboard.ts"
+    ]
+  },
+  {
+    "id": "hook:use-media-query",
+    "kind": "hook",
+    "name": "use-media-query",
+    "signature": "export function useMediaQuery(\n  query: BreakpointQuery | MediaQueryInput | (string & {}),\n): boolean ",
+    "source_paths": [
+      "registry/default/hooks/use-media-query.ts"
+    ]
+  }
+]

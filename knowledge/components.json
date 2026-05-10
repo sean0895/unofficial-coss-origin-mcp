@@ -1,0 +1,719 @@
+[
+  {
+    "id": "component:switch",
+    "kind": "component",
+    "name": "switch",
+    "doc_slug": "components/switch",
+    "registry_url": "https://coss.com/ui/r/switch.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/switch.tsx"
+    ],
+    "source_hash": "2b3bada3d7234149"
+  },
+  {
+    "id": "component:empty",
+    "kind": "component",
+    "name": "empty",
+    "doc_slug": "components/empty",
+    "registry_url": "https://coss.com/ui/r/empty.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/empty.tsx"
+    ],
+    "source_hash": "57341b5a985ba2cc"
+  },
+  {
+    "id": "component:sheet",
+    "kind": "component",
+    "name": "sheet",
+    "doc_slug": "components/sheet",
+    "registry_url": "https://coss.com/ui/r/sheet.json",
+    "primitives_used": [
+      "Button",
+      "ScrollArea"
+    ],
+    "source_paths": [
+      "registry/default/ui/sheet.tsx"
+    ],
+    "source_hash": "d600dc30b08f52f3"
+  },
+  {
+    "id": "component:drawer",
+    "kind": "component",
+    "name": "drawer",
+    "doc_slug": "components/drawer",
+    "registry_url": "https://coss.com/ui/r/drawer.json",
+    "primitives_used": [
+      "Button",
+      "ScrollArea"
+    ],
+    "source_paths": [
+      "registry/default/ui/drawer.tsx"
+    ],
+    "source_hash": "816981111d2a3535"
+  },
+  {
+    "id": "component:sidebar",
+    "kind": "component",
+    "name": "sidebar",
+    "doc_slug": "components/sidebar",
+    "registry_url": "https://coss.com/ui/r/sidebar.json",
+    "primitives_used": [
+      "Button",
+      "Input",
+      "ScrollArea",
+      "Separator",
+      "Sheet",
+      "SheetDescription",
+      "SheetHeader",
+      "SheetPopup",
+      "SheetTitle",
+      "Skeleton",
+      "Tooltip",
+      "TooltipPopup",
+      "TooltipTrigger"
+    ],
+    "source_paths": [
+      "registry/default/ui/sidebar.tsx"
+    ],
+    "source_hash": "6ef5a3854c2c87c9"
+  },
+  {
+    "id": "component:toast",
+    "kind": "component",
+    "name": "toast",
+    "doc_slug": "components/toast",
+    "registry_url": "https://coss.com/ui/r/toast.json",
+    "primitives_used": [
+      "buttonVariants"
+    ],
+    "source_paths": [
+      "registry/default/ui/toast.tsx"
+    ],
+    "source_hash": "3021cedf9cca932f"
+  },
+  {
+    "id": "component:input-group",
+    "kind": "component",
+    "name": "input-group",
+    "doc_slug": "components/input-group",
+    "registry_url": "https://coss.com/ui/r/input-group.json",
+    "primitives_used": [
+      "Input",
+      "Textarea",
+      "type InputProps",
+      "type TextareaProps"
+    ],
+    "source_paths": [
+      "registry/default/ui/input-group.tsx"
+    ],
+    "source_hash": "170ef435aa1f7ee4"
+  },
+  {
+    "id": "component:field",
+    "kind": "component",
+    "name": "field",
+    "doc_slug": "components/field",
+    "registry_url": "https://coss.com/ui/r/field.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/field.tsx"
+    ],
+    "source_hash": "02ffda39f73f0463"
+  },
+  {
+    "id": "component:scroll-area",
+    "kind": "component",
+    "name": "scroll-area",
+    "doc_slug": "components/scroll-area",
+    "registry_url": "https://coss.com/ui/r/scroll-area.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/scroll-area.tsx"
+    ],
+    "source_hash": "bb60c575d63c5493"
+  },
+  {
+    "id": "component:autocomplete",
+    "kind": "component",
+    "name": "autocomplete",
+    "doc_slug": "components/autocomplete",
+    "registry_url": "https://coss.com/ui/r/autocomplete.json",
+    "primitives_used": [
+      "Input",
+      "ScrollArea"
+    ],
+    "source_paths": [
+      "registry/default/ui/autocomplete.tsx"
+    ],
+    "source_hash": "21c2bbc1c3e7bfb6"
+  },
+  {
+    "id": "component:spinner",
+    "kind": "component",
+    "name": "spinner",
+    "doc_slug": "components/spinner",
+    "registry_url": "https://coss.com/ui/r/spinner.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/spinner.tsx"
+    ],
+    "source_hash": "5116d0ec549bf70d"
+  },
+  {
+    "id": "component:checkbox-group",
+    "kind": "component",
+    "name": "checkbox-group",
+    "doc_slug": "components/checkbox-group",
+    "registry_url": "https://coss.com/ui/r/checkbox-group.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/checkbox-group.tsx"
+    ],
+    "source_hash": "f78494035296e12c"
+  },
+  {
+    "id": "component:tooltip",
+    "kind": "component",
+    "name": "tooltip",
+    "doc_slug": "components/tooltip",
+    "registry_url": "https://coss.com/ui/r/tooltip.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/tooltip.tsx"
+    ],
+    "source_hash": "0ac59089d1d813b7"
+  },
+  {
+    "id": "component:input",
+    "kind": "component",
+    "name": "input",
+    "doc_slug": "components/input",
+    "registry_url": "https://coss.com/ui/r/input.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/input.tsx"
+    ],
+    "source_hash": "3a67d720b489b9f0"
+  },
+  {
+    "id": "component:slider",
+    "kind": "component",
+    "name": "slider",
+    "doc_slug": "components/slider",
+    "registry_url": "https://coss.com/ui/r/slider.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/slider.tsx"
+    ],
+    "source_hash": "abf488cac56c237b"
+  },
+  {
+    "id": "component:radio-group",
+    "kind": "component",
+    "name": "radio-group",
+    "doc_slug": "components/radio-group",
+    "registry_url": "https://coss.com/ui/r/radio-group.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/radio-group.tsx"
+    ],
+    "source_hash": "b2479e9967f0ba48"
+  },
+  {
+    "id": "component:meter",
+    "kind": "component",
+    "name": "meter",
+    "doc_slug": "components/meter",
+    "registry_url": "https://coss.com/ui/r/meter.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/meter.tsx"
+    ],
+    "source_hash": "f7f0b85f6878378c"
+  },
+  {
+    "id": "component:breadcrumb",
+    "kind": "component",
+    "name": "breadcrumb",
+    "doc_slug": "components/breadcrumb",
+    "registry_url": "https://coss.com/ui/r/breadcrumb.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/breadcrumb.tsx"
+    ],
+    "source_hash": "e420178801b8d722"
+  },
+  {
+    "id": "component:fieldset",
+    "kind": "component",
+    "name": "fieldset",
+    "doc_slug": "components/fieldset",
+    "registry_url": "https://coss.com/ui/r/fieldset.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/fieldset.tsx"
+    ],
+    "source_hash": "1ec36d2a2c60fd1b"
+  },
+  {
+    "id": "component:alert",
+    "kind": "component",
+    "name": "alert",
+    "doc_slug": "components/alert",
+    "registry_url": "https://coss.com/ui/r/alert.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/alert.tsx"
+    ],
+    "source_hash": "340fc98fae7b30d0"
+  },
+  {
+    "id": "component:preview-card",
+    "kind": "component",
+    "name": "preview-card",
+    "doc_slug": "components/preview-card",
+    "registry_url": "https://coss.com/ui/r/preview-card.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/preview-card.tsx"
+    ],
+    "source_hash": "44741ce4217d89c1"
+  },
+  {
+    "id": "component:toolbar",
+    "kind": "component",
+    "name": "toolbar",
+    "doc_slug": "components/toolbar",
+    "registry_url": "https://coss.com/ui/r/toolbar.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/toolbar.tsx"
+    ],
+    "source_hash": "f08696682ad171b5"
+  },
+  {
+    "id": "component:otp-field",
+    "kind": "component",
+    "name": "otp-field",
+    "doc_slug": "components/otp-field",
+    "registry_url": "https://coss.com/ui/r/otp-field.json",
+    "primitives_used": [
+      "Separator"
+    ],
+    "source_paths": [
+      "registry/default/ui/otp-field.tsx"
+    ],
+    "source_hash": "cc9b19b7d44b62f3"
+  },
+  {
+    "id": "component:dialog",
+    "kind": "component",
+    "name": "dialog",
+    "doc_slug": "components/dialog",
+    "registry_url": "https://coss.com/ui/r/dialog.json",
+    "primitives_used": [
+      "Button",
+      "ScrollArea"
+    ],
+    "source_paths": [
+      "registry/default/ui/dialog.tsx"
+    ],
+    "source_hash": "446fdd4c5e938033"
+  },
+  {
+    "id": "component:checkbox",
+    "kind": "component",
+    "name": "checkbox",
+    "doc_slug": "components/checkbox",
+    "registry_url": "https://coss.com/ui/r/checkbox.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/checkbox.tsx"
+    ],
+    "source_hash": "a1b8b4180a39a47c"
+  },
+  {
+    "id": "component:collapsible",
+    "kind": "component",
+    "name": "collapsible",
+    "doc_slug": "components/collapsible",
+    "registry_url": "https://coss.com/ui/r/collapsible.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/collapsible.tsx"
+    ],
+    "source_hash": "f70e7b9fde220ce5"
+  },
+  {
+    "id": "component:ui",
+    "kind": "component",
+    "name": "ui",
+    "doc_slug": "components/ui",
+    "registry_url": "https://coss.com/ui/r/ui.json",
+    "primitives_used": [],
+    "source_paths": [],
+    "source_hash": "e3b0c44298fc1c14"
+  },
+  {
+    "id": "component:card",
+    "kind": "component",
+    "name": "card",
+    "doc_slug": "components/card",
+    "registry_url": "https://coss.com/ui/r/card.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/card.tsx"
+    ],
+    "source_hash": "02481795cfcda1a2"
+  },
+  {
+    "id": "component:menu",
+    "kind": "component",
+    "name": "menu",
+    "doc_slug": "components/menu",
+    "registry_url": "https://coss.com/ui/r/menu.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/menu.tsx"
+    ],
+    "source_hash": "39a1a1c6f99a5e99"
+  },
+  {
+    "id": "component:command",
+    "kind": "component",
+    "name": "command",
+    "doc_slug": "components/command",
+    "registry_url": "https://coss.com/ui/r/command.json",
+    "primitives_used": [
+      "Autocomplete",
+      "AutocompleteCollection",
+      "AutocompleteEmpty",
+      "AutocompleteGroup",
+      "AutocompleteGroupLabel",
+      "AutocompleteInput",
+      "AutocompleteItem",
+      "AutocompleteList",
+      "AutocompleteSeparator"
+    ],
+    "source_paths": [
+      "registry/default/ui/command.tsx"
+    ],
+    "source_hash": "6b000105c3a69b97"
+  },
+  {
+    "id": "component:button",
+    "kind": "component",
+    "name": "button",
+    "doc_slug": "components/button",
+    "registry_url": "https://coss.com/ui/r/button.json",
+    "primitives_used": [
+      "Spinner"
+    ],
+    "source_paths": [
+      "registry/default/ui/button.tsx"
+    ],
+    "source_hash": "1e65556bde3071f9"
+  },
+  {
+    "id": "component:table",
+    "kind": "component",
+    "name": "table",
+    "doc_slug": "components/table",
+    "registry_url": "https://coss.com/ui/r/table.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/table.tsx"
+    ],
+    "source_hash": "0880dec0b6fe5972"
+  },
+  {
+    "id": "component:alert-dialog",
+    "kind": "component",
+    "name": "alert-dialog",
+    "doc_slug": "components/alert-dialog",
+    "registry_url": "https://coss.com/ui/r/alert-dialog.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/alert-dialog.tsx"
+    ],
+    "source_hash": "e6e8d2aee4115cb2"
+  },
+  {
+    "id": "component:textarea",
+    "kind": "component",
+    "name": "textarea",
+    "doc_slug": "components/textarea",
+    "registry_url": "https://coss.com/ui/r/textarea.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/textarea.tsx"
+    ],
+    "source_hash": "7d9da4c22e5872d8"
+  },
+  {
+    "id": "component:accordion",
+    "kind": "component",
+    "name": "accordion",
+    "doc_slug": "components/accordion",
+    "registry_url": "https://coss.com/ui/r/accordion.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/accordion.tsx"
+    ],
+    "source_hash": "b975e2a75b37fb44"
+  },
+  {
+    "id": "component:skeleton",
+    "kind": "component",
+    "name": "skeleton",
+    "doc_slug": "components/skeleton",
+    "registry_url": "https://coss.com/ui/r/skeleton.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/skeleton.tsx"
+    ],
+    "source_hash": "02e61d00c76b7ed5"
+  },
+  {
+    "id": "component:tabs",
+    "kind": "component",
+    "name": "tabs",
+    "doc_slug": "components/tabs",
+    "registry_url": "https://coss.com/ui/r/tabs.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/tabs.tsx"
+    ],
+    "source_hash": "62b9fa90283380c2"
+  },
+  {
+    "id": "component:frame",
+    "kind": "component",
+    "name": "frame",
+    "doc_slug": "components/frame",
+    "registry_url": "https://coss.com/ui/r/frame.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/frame.tsx"
+    ],
+    "source_hash": "55da638812d093e7"
+  },
+  {
+    "id": "component:avatar",
+    "kind": "component",
+    "name": "avatar",
+    "doc_slug": "components/avatar",
+    "registry_url": "https://coss.com/ui/r/avatar.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/avatar.tsx"
+    ],
+    "source_hash": "c4b13138f0bcb59d"
+  },
+  {
+    "id": "component:progress",
+    "kind": "component",
+    "name": "progress",
+    "doc_slug": "components/progress",
+    "registry_url": "https://coss.com/ui/r/progress.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/progress.tsx"
+    ],
+    "source_hash": "605ea95436094735"
+  },
+  {
+    "id": "component:popover",
+    "kind": "component",
+    "name": "popover",
+    "doc_slug": "components/popover",
+    "registry_url": "https://coss.com/ui/r/popover.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/popover.tsx"
+    ],
+    "source_hash": "ff9b981ce4e68b86"
+  },
+  {
+    "id": "component:combobox",
+    "kind": "component",
+    "name": "combobox",
+    "doc_slug": "components/combobox",
+    "registry_url": "https://coss.com/ui/r/combobox.json",
+    "primitives_used": [
+      "Input",
+      "ScrollArea"
+    ],
+    "source_paths": [
+      "registry/default/ui/combobox.tsx"
+    ],
+    "source_hash": "6233784879c56206"
+  },
+  {
+    "id": "component:kbd",
+    "kind": "component",
+    "name": "kbd",
+    "doc_slug": "components/kbd",
+    "registry_url": "https://coss.com/ui/r/kbd.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/kbd.tsx"
+    ],
+    "source_hash": "bba8c5770dd115e4"
+  },
+  {
+    "id": "component:group",
+    "kind": "component",
+    "name": "group",
+    "doc_slug": "components/group",
+    "registry_url": "https://coss.com/ui/r/group.json",
+    "primitives_used": [
+      "Separator"
+    ],
+    "source_paths": [
+      "registry/default/ui/group.tsx"
+    ],
+    "source_hash": "d2392c54a90e3537"
+  },
+  {
+    "id": "component:calendar",
+    "kind": "component",
+    "name": "calendar",
+    "doc_slug": "components/calendar",
+    "registry_url": "https://coss.com/ui/r/calendar.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/calendar.tsx"
+    ],
+    "source_hash": "c1ece731dd86a9f7"
+  },
+  {
+    "id": "component:pagination",
+    "kind": "component",
+    "name": "pagination",
+    "doc_slug": "components/pagination",
+    "registry_url": "https://coss.com/ui/r/pagination.json",
+    "primitives_used": [
+      "buttonVariants",
+      "type Button"
+    ],
+    "source_paths": [
+      "registry/default/ui/pagination.tsx"
+    ],
+    "source_hash": "4c3d048be127d228"
+  },
+  {
+    "id": "component:fonts",
+    "kind": "component",
+    "name": "fonts",
+    "doc_slug": "components/fonts",
+    "registry_url": "https://coss.com/ui/r/fonts.json",
+    "primitives_used": [],
+    "source_paths": [],
+    "source_hash": "e3b0c44298fc1c14"
+  },
+  {
+    "id": "component:toggle-group",
+    "kind": "component",
+    "name": "toggle-group",
+    "doc_slug": "components/toggle-group",
+    "registry_url": "https://coss.com/ui/r/toggle-group.json",
+    "primitives_used": [
+      "Separator",
+      "Toggle",
+      "type toggleVariants"
+    ],
+    "source_paths": [
+      "registry/default/ui/toggle-group.tsx"
+    ],
+    "source_hash": "8c67854bffcf7622"
+  },
+  {
+    "id": "component:label",
+    "kind": "component",
+    "name": "label",
+    "doc_slug": "components/label",
+    "registry_url": "https://coss.com/ui/r/label.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/label.tsx"
+    ],
+    "source_hash": "edaf5fb049b3e2f2"
+  },
+  {
+    "id": "component:number-field",
+    "kind": "component",
+    "name": "number-field",
+    "doc_slug": "components/number-field",
+    "registry_url": "https://coss.com/ui/r/number-field.json",
+    "primitives_used": [
+      "Label"
+    ],
+    "source_paths": [
+      "registry/default/ui/number-field.tsx"
+    ],
+    "source_hash": "9962eb22470f2051"
+  },
+  {
+    "id": "component:form",
+    "kind": "component",
+    "name": "form",
+    "doc_slug": "components/form",
+    "registry_url": "https://coss.com/ui/r/form.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/form.tsx"
+    ],
+    "source_hash": "c08b75b48a90dd34"
+  },
+  {
+    "id": "component:toggle",
+    "kind": "component",
+    "name": "toggle",
+    "doc_slug": "components/toggle",
+    "registry_url": "https://coss.com/ui/r/toggle.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/toggle.tsx"
+    ],
+    "source_hash": "a32372d0eaa291bc"
+  },
+  {
+    "id": "component:separator",
+    "kind": "component",
+    "name": "separator",
+    "doc_slug": "components/separator",
+    "registry_url": "https://coss.com/ui/r/separator.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/separator.tsx"
+    ],
+    "source_hash": "48393a9f365097e3"
+  },
+  {
+    "id": "component:badge",
+    "kind": "component",
+    "name": "badge",
+    "doc_slug": "components/badge",
+    "registry_url": "https://coss.com/ui/r/badge.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/badge.tsx"
+    ],
+    "source_hash": "60f73554b462ec5e"
+  },
+  {
+    "id": "component:select",
+    "kind": "component",
+    "name": "select",
+    "doc_slug": "components/select",
+    "registry_url": "https://coss.com/ui/r/select.json",
+    "primitives_used": [],
+    "source_paths": [
+      "registry/default/ui/select.tsx"
+    ],
+    "source_hash": "5e13f8e77bc40a0a"
+  }
+]
