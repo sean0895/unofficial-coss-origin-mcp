@@ -69,10 +69,11 @@ apply_toggle() {
     # We don't have a reliable turn counter from stdin payload; approximate via timestamp diff.
     local last_ts; last_ts="$(coss_state_get last_toggle_at 2>/dev/null || echo '')"
     if [ -n "$last_ts" ] && [ "$last_ts" != "null" ]; then
-        local now_s last_s
+        local now_s last_s last_clean
         now_s="$(date -u +%s)"
-        last_s="$(date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "$last_ts" +%s 2>/dev/null \
-                 || date -u -d "$last_ts" +%s 2>/dev/null || echo 0)"
+        last_clean="$(printf '%s' "$last_ts" | sed -E 's/\.[0-9]+Z$/Z/')"
+        last_s="$(date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "$last_clean" +%s 2>/dev/null \
+                 || date -u -d "$last_clean" +%s 2>/dev/null || echo 0)"
         if [ $((now_s - last_s)) -lt 5 ]; then
             printf '⚠ COSS-ORIGIN-MODE toggle ignored — anti-bounce (re-issued <5s after prior toggle)\n' >&2
             coss_audit_log "toggle-bounce-rejected" "action=$action"

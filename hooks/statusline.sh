@@ -46,8 +46,10 @@ if [ "$mode" = "dry-run" ]; then
     until_ts="$(coss_state_get dry_run_until)"
     if [ -n "$until_ts" ] && [ "$until_ts" != "null" ]; then
         now_s="$(date -u +%s)"
-        end_s="$(date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "$until_ts" +%s 2>/dev/null \
-                || date -u -d "$until_ts" +%s 2>/dev/null || echo "$now_s")"
+        # strip fractional seconds — BSD `date` rejects them
+        until_clean="$(printf '%s' "$until_ts" | sed -E 's/\.[0-9]+Z$/Z/')"
+        end_s="$(date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "$until_clean" +%s 2>/dev/null \
+                || date -u -d "$until_clean" +%s 2>/dev/null || echo "$now_s")"
         secs_left=$(( end_s - now_s ))
         if [ "$secs_left" -gt 0 ]; then
             days=$(( secs_left / 86400 ))

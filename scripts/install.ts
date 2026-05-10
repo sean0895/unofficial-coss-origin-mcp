@@ -166,14 +166,27 @@ const mergeSettings = (existing: Settings, hookDir: string): Settings => {
     `bash "${join(hookDir, "post-tool-use.sh")}"`,
   );
 
-  // statusLine: chain with existing if present.
+  // statusLine: chain in this order:
+  //   1. existing project-level statusLine (if any)
+  //   2. global ~/.claude/statusline.sh (if exists and not already chained)
+  //   3. coss-mode statusline.sh
+  // Project settings.json overrides global, so we MUST call global ourselves
+  // when promoting from "no project statusLine" → "project statusLine".
   const cossSL = `bash "${join(hookDir, "statusline.sh")}"`;
+  const globalSL = join(HOME, ".claude", "statusline.sh");
   if (!existing.statusLine?.command) {
-    next.statusLine = { type: "command", command: cossSL };
-  } else if (!existing.statusLine.command.includes("statusline.sh")) {
+    if (existsSync(globalSL)) {
+      next.statusLine = {
+        type: "command",
+        command: `bash "${globalSL}"; printf ' | '; ${cossSL}`,
+      };
+    } else {
+      next.statusLine = { type: "command", command: cossSL };
+    }
+  } else if (!existing.statusLine.command.includes("coss-mode/statusline.sh")) {
     next.statusLine = {
       type: "command",
-      command: `${existing.statusLine.command} && printf ' | ' && ${cossSL}`,
+      command: `${existing.statusLine.command}; printf ' | '; ${cossSL}`,
     };
   }
 
