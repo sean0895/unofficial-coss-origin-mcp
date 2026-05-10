@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "mode": "dry-run",
+  "paths": [
+    "src/components/**/*.tsx",
+    "src/app/**/*.tsx"
+  ],
+  "exclude": [
+    "**/*.test.tsx",
+    "**/*.spec.tsx",
+    "**/*.stories.tsx",
+    "src/components/ui/**",
+    "e2e/**",
+    "tests/**"
+  ],
+  "rules_escalations": {
+    "_comment": "Can ESCALATE warn -> error here, but cannot DEMOTE error -> warn (hardcoded floor in lib/rules.sh)"
+  },
+  "scan": "diff-only"
+}

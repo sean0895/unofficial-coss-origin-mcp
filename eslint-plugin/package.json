@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-coss-mode",
+  "version": "0.1.0",
+  "description": "ESLint plugin mirroring unofficial-coss-origin-mcp hook rules. CI parity for COSS Origin enforcement.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "files": ["index.js", "rules/"],
+  "license": "MIT"
+}

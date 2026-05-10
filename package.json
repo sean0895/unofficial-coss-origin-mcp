@@ -5,11 +5,19 @@
   "type": "module",
   "main": "dist/server.js",
   "bin": {
-    "unofficial-coss-origin-mcp": "dist/server.js"
+    "unofficial-coss-origin-mcp": "dist/server.js",
+    "unofficial-coss-origin-mcp-install": "scripts/install.ts",
+    "unofficial-coss-origin-mcp-uninstall": "scripts/uninstall.ts"
   },
   "files": [
     "dist",
     "knowledge",
+    "hooks",
+    "skill",
+    "eslint-plugin",
+    "config",
+    "scripts/install.ts",
+    "scripts/uninstall.ts",
     "claude-rules.md",
     "README.md"
   ],
